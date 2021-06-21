@@ -1,0 +1,9 @@
+gunicorn==20.1.0
+streamlit==0.81.1
+asgiref
+Django
+django-crispy-forms
+pytz
+sqlparse
+waitress
+whitenoise
