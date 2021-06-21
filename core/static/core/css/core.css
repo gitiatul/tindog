@@ -177,7 +177,10 @@ p{
 
 /*------------media---------------*/
 
-@media screen (max-width:1028px){
+@media screen 
+	and (min-width: 761px)
+	and (max-width: 1028px)
+{
 
   #title{
     text-align: center;
@@ -202,7 +205,9 @@ p{
   }
 }
 
-@media screen (max-width:760px)
+@media screen 
+	and (min-width: 0px)
+	and (max-width: 760px)
 {
 
   #title{
